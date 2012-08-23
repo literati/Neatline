@@ -1,5 +1,7 @@
 # Neatline
 
+[![Build Status](https://secure.travis-ci.org/scholarslab/Neatline.png)](http://travis-ci.org/scholarslab/Neatline)
+
 Neatline is a geotemporal exhibit-buiding framework that makes it possible to create beautiful, complex maps and connect them with timelines. Neatline is built as a suite of plugins for the Omeka, a digital archive-building framework that supplies a powerful platform for content management and web publication.
 
 ![Editor](http://23.21.98.97/wp-content/uploads/2012/06/editor.png)
