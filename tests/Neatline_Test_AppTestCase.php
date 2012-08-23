@@ -27,9 +27,16 @@
 //require_once dirname(__FILE__) . '/../NeatlinePlugin.php';
 //require_once dirname(__FILE__) . '/../../NeatlineMaps/NeatlineMapsPlugin.php';
 
-//if (!defined('NEATLINE_PLUGIN_DIR')) {
-    //define('NEATLINE_PLUGIN_DIR', './..');
-//}
+if (!($omekaDir = getenv('OMEKA_DIR'))) {
+    $omekaDir = dirname(dirname(dirname(dirname(__FILE__))));
+}
+
+if (!defined('NEATLINE_PLUGIN_DIR')) {
+    define('NEATLINE_PLUGIN_DIR', $omekaDir . '/plugins/Neatline');
+}
+
+require_once NEATLINE_PLUGIN_DIR . '/NeatlinePlugin.php';
+require_once $omekaDir . '/plugins/NeatlineMaps/NeatlineMapsPlugin.php';
 
 class Neatline_Test_AppTestCase extends Omeka_Test_AppTestCase
 {
