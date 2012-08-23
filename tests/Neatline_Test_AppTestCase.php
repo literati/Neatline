@@ -24,12 +24,12 @@
  * @license     http://www.apache.org/licenses/LICENSE-2.0.html Apache 2 License
  */
 
-require_once dirname(__FILE__) . '/../NeatlinePlugin.php';
-require_once dirname(__FILE__) . '/../../NeatlineMaps/NeatlineMapsPlugin.php';
+//require_once dirname(__FILE__) . '/../NeatlinePlugin.php';
+//require_once dirname(__FILE__) . '/../../NeatlineMaps/NeatlineMapsPlugin.php';
 
-if (!defined('NEATLINE_PLUGIN_DIR')) {
-    define('NEATLINE_PLUGIN_DIR', './..');
-}
+//if (!defined('NEATLINE_PLUGIN_DIR')) {
+    //define('NEATLINE_PLUGIN_DIR', './..');
+//}
 
 class Neatline_Test_AppTestCase extends Omeka_Test_AppTestCase
 {
