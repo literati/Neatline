@@ -33,3 +33,4 @@ cd $OMEKA_DIR/plugins && ln -s $PLUGIN_DIR
 
 # this plugin has a dependency on NL Maps
 cd $PLUGIN_DIR && git clone git://github.com/scholarslab/NeatlineMaps.git
+
