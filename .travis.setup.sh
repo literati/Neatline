@@ -2,6 +2,7 @@
 
 if [ -z $OMEKA_BRANCH ]; then
   OMEKA_BRANCH=stable-1.5
+  echo "set omeka branch in script"
 fi
 
 export PLUGIN_DIR=`pwd`
